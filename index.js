@@ -29,7 +29,7 @@ module.exports = function (opts) {
 			var fileOpts = objectAssign({}, opts, {
 				filename: file.path,
 				filenameRelative: file.relative,
-				sourceMap: Boolean(file.sourceMap),
+				sourceMaps: Boolean(file.sourceMap),
 				sourceFileName: file.relative,
 				sourceMapTarget: file.relative
 			});
